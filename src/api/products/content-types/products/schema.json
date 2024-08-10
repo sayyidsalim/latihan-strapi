@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product",
+  "info": {
+    "singularName": "products",
+    "pluralName": "product",
+    "displayName": "products"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "image": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
